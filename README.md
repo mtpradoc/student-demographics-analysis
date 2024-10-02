@@ -57,10 +57,17 @@ The dataset consists of various fields including:
 - **Visualization Type**: Pie chart, labeled "Diversity Representation."
 
 #### Number of Students per Cohort (Sheet 7)
-
 - **Visualized the number of students per cohort from 2020 to 2024**, showing a growth trend from 14 students in 2020 to 27 in the most recent cohort, with a notable dip to 14 students in the previous-to-last cohort.
 - **Purpose**: To analyze the growth and fluctuations in cohort sizes over time, providing insight into the program's expansion and potential factors contributing to the dip in enrollment in the second-to-last cohort. Understanding cohort sizes can help program organizers assess capacity, resource needs, and recruitment strategies.
 **Visualization Type**: Line chart or bar chart, labeled "Number of Students per Cohort"
+
+#### Key Performance Indicators (Sheet 8)
+This section highlights the most important demographic metrics of the applicants:
+- **Unemployed (30.40%)**: A significant portion (30.40%) of the applicants are unemployed, indicating that the program is reaching individuals who are likely seeking career development and job opportunities.
+- **Household Income <50K (43.88%)**: Almost half (43.88%) of the applicants come from households with an annual income of less than $50,000, highlighting the potential financial challenges faced by many applicants.
+- **Single Mothers (42.09%)**: A substantial 42.09% of the applicants are single mothers, suggesting that a significant portion of the program participants may need additional support balancing parenting responsibilities with their participation in the program.
+- **High School / Some College (51.98%)**: Over half (51.98%) of the applicants have only a high school diploma or some college education, showing that many participants may be seeking further education or upskilling opportunities.
+- **BIPOC+ (37.23%)**: 37.23% of the applicants identify as Black, Indigenous, People of Color (BIPOC+), indicating that the program is serving a diverse population, though there remains room for outreach to other underrepresented groups.
 
 ### 4. Final Dashboard
 - Combined all visualizations into a comprehensive dashboard named **Student Demographics**.
