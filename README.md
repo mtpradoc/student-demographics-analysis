@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project explores the demographics of students applying to the **Tech Moms** program using application data. The dataset provides insights into the employment status, education levels, household income, and diversity of the applicants. Using Tableau, I visualized key trends such as employment categories, income distribution, and the representation of various racial and ethnic groups. The goal is to understand the applicant profile and support program decision-making for future cohorts.
+This project explores the demographics of students that applied to **Tech Moms** program using application data. The dataset provides insights into the employment status, education levels, household income, and diversity of the applicants. Using Tableau, I visualized key trends such as employment categories, income distribution, and the representation of various racial and ethnic groups. The goal is to understand the applicant / student profile and support program decision-making for future cohorts.
 
 ## Project Details
 
@@ -26,24 +26,41 @@ The dataset consists of various fields including:
 ### 3. Key Visualizations
 
 #### Employment Status Breakdown (Sheet 1)
-- **Visualized the employment distribution** of the applicants.
-- **Purpose**: Identify how many applicants are unemployed, part-time, or full-time to assess the need for career support.
-- **Visualization Type**: Bar chart, labeled "Employment Status Breakdown."
+- **Visualized the employment distribution** of the students.
+- **Purpose**: Identify how many students are unemployed, part-time, or full-time to assess the need for career support.
+- **Visualization Type**: Pie chart, labeled "Employment Status"
 
 #### Income Distribution (Sheet 2)
-- **Visualized the household income** distribution of applicants.
-- **Purpose**: Assess the financial backgrounds of applicants and identify income brackets.
-- **Visualization Type**: Pie chart, labeled "Income Distribution."
+- **Visualized the household income** distribution of students.
+- **Purpose**: Assess the financial backgrounds of students and identify income brackets.
+- **Visualization Type**: Bar chart, labeled "Household Income."
 
-#### Education Level Breakdown (Sheet 3)
+#### Marital Status Distribution (Sheet 3)
+- **Visualized the marital status** distribution of students, showing whether they are single, married, or in other relationship statuses.
+- **Purpose**: Understand the marital status distribution of applicants, which can provide insight into potential responsibilities (such as family obligations) that may impact their availability or participation in the program.
+- **Visualization Type**: Bar chart, labeled "Marital Status"
+
+#### Number of Children Distribution (Sheet 4)
+
+- **Visualized the distribution of the number of children that each student has**, ranging from null, 0, 1, up to 9 children.
+- **Purpose**: To understand the family responsibilities of the applicants. This can help the program identify potential challenges students may face in balancing their coursework with childcare, and assist in tailoring support services for parents, particularly those with larger families or those without children.
+- **Visualization Type**: Bar chart, labeled "Number of Children Distribution"
+
+#### Education Level Breakdown (Sheet 5)
 - **Explored the education levels** of the applicants.
 - **Purpose**: Understand the educational qualifications of the applicant pool, from high school to bachelor's degree.
 - **Visualization Type**: Bar chart, labeled "Education Level Breakdown."
 
-#### Diversity Representation (Sheet 4)
+#### Diversity Representation (Sheet 6)
 - **Displayed the racial and ethnic composition** of the applicants, focusing on BIPOC+ groups.
 - **Purpose**: Analyze the diversity of the program's applicants.
 - **Visualization Type**: Pie chart, labeled "Diversity Representation."
+
+#### Number of Students per Cohort (Sheet 7)
+
+- **Visualized the number of students per cohort from 2020 to 2024**, showing a growth trend from 14 students in 2020 to 27 in the most recent cohort, with a notable dip to 14 students in the previous-to-last cohort.
+- **Purpose**: To analyze the growth and fluctuations in cohort sizes over time, providing insight into the program's expansion and potential factors contributing to the dip in enrollment in the second-to-last cohort. Understanding cohort sizes can help program organizers assess capacity, resource needs, and recruitment strategies.
+**Visualization Type**: Line chart or bar chart, labeled "Number of Students per Cohort"
 
 ### 4. Final Dashboard
 - Combined all visualizations into a comprehensive dashboard named **Student Demographics**.
